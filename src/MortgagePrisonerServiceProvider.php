@@ -31,7 +31,8 @@ class MortgagePrisonerServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/MortgagePrisoner.php', 'MortgagePrisoner');
+		// Broken for some reason
+        //$this->mergeConfigFrom(__DIR__.'/../config/MortgagePrisoner.php', 'MortgagePrisoner');
 
         // Register the service the package provides.
         $this->app->singleton('MortgagePrisoner', function ($app) {
@@ -56,10 +57,9 @@ class MortgagePrisonerServiceProvider extends ServiceProvider
      */
     protected function bootForConsole()
     {
+		// Broken for some reason, capitalisation maybe.
         // Publishing the configuration file.
-        $this->publishes([
-            __DIR__.'/../config/MortgagePrisoner.php' => config_path('MortgagePrisoner.php'),
-        ], 'MortgagePrisoner.config');
+        //$this->publishes([__DIR__.'/../config/MortgagePrisoner.php' => config_path('MortgagePrisoner.php'),], 'MortgagePrisoner.config');
 
         // Publishing the views.
         $this->publishes([
