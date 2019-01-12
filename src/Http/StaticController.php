@@ -7,7 +7,7 @@ use SEO;
 
 class StaticController extends BaseController{
   public function index(){
-      SEO::setTitle('Finance for Property Investors');
-      return view('BespokeFinance::home');
+      SEO::setTitle('Mortgage Prisoner Advice Service', FALSE);
+      return view('MortgagePrisoner::home');
   }
 }
