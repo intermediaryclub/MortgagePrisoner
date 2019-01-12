@@ -1,7 +1,7 @@
 {
     "name": "intermediaryclub/mortgageprisoner",
     "description": ":description",
-    "license": "GNU-V3",
+    "license": "GPL-3.0-only",
     "authors": [
         {
             "name": "Adam Hosker",
