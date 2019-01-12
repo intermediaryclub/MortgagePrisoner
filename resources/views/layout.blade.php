@@ -46,6 +46,43 @@
 @yield('content')
 
 
+
+
+<div class="bg-green text-white pt-5 mt-5">
+  <div class="flex flex-wrap">
+    <div class="w-full lg:flex-1 p-3">
+      <ul class="list-reset">
+        <li><a class="text-white no-underline" href="#">Terms and Conditions</a></li>
+        <li><a class="text-white no-underline" href="#">Privacy Policy</a></li>
+        <li><a class="text-white no-underline" href="#">Complaints</a></li>
+        <li><a class="text-white no-underline" href="#">Cookie Policy</a></li>
+      </ul>
+    </div>
+    <div class="hidden lg:inline-block lg:flex-1 p-3">
+      <ul class="list-reset">
+        <li><a class="text-white no-underline" target="_blank" rel="noopener" href="#" title="Contact Mortgage Prisoner Advice">Contact Us</a></li>
+        <li><a class="text-white no-underline" target="_blank" rel="noopener" href="#" title="Mortgage Prisoner Twitter">Twitter</a></li>
+        <li><a class="text-white no-underline" target="_blank" rel="noopener" href="#" title="Mortgage Prisoner Facebook">Facebook</a></li>
+      </ul>
+    </div>
+    <div class="w-full lg:flex-1 p-3">
+      contact details here
+      <!--
+      <ul class="list-reset">
+        <li><a class="text-white no-underline" href="tel:01133203240" title="Call Us on 01133203240">01133203240</a></li>
+        <li><a class="text-white no-underline" href="mailto:hello@bespokefinance.info" title="Email Bespoke Finance">hello@bespokefinance.info</a></li>
+        <li><a class="text-white no-underline" target="_blank" rel="noopener" href="https://goo.gl/maps/TRQvAqgVFRF2" title="Write to Bespoke Finance">31 Church Lane, Pudsey, LS28 7LD</a></li>
+      </ul>
+    -->
+    </div>
+  </div>
+  <div class="text-center py-5">
+    <p class="font-semibold">YOUR PROPERTY MAY BE REPOSSESSED IF YOU DO NOT KEEP UP REPAYMENTS ON A MORTGAGE OR ANY OTHER DEBT SECURED ON IT.</p>
+    <p class="mt-2">MortgagePrisoner.co.uk introduces clients, specifically Mortgage Prisoners, to Mortgage Advisers whom are Authorised and Regulated by the Financial Conduct Authority (FCA).</p>
+    <p class="mt-2">© Copyright 2019. All rights reserved.</p>
+  </div>
+</div>
+
 </body>
 
 </html>
