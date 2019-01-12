@@ -21,7 +21,7 @@
     <p class="p-2">We provide indipendent guidance and privately funded by mortgage advisers who want to help.</p>
     <br/>
     <div class="p-2">
-    <a href="{{ route('home') }}" class="w-full bg-white hover:bg-grey-lightest py-2 px-4 rounded no-underline border border-green-dark text-green-dark">Start Here</a>
+<a href="{{ route('home') }}" class="mx-auto text-center w-1/3 block bg-green py-2 px-4 rounded no-underline border border-green-dark text-white">Start Here</a>
   </div>
   </div>
   </div>
@@ -32,11 +32,19 @@
   <div class="lg:flex-1 m-2 lg:mx-5 p-2">
     <h2>Popular tools & calculators</h2><a href="{{route('home')}}" class="text-white no-underline">View All...</a>
   </div>
-  <div class="lg:flex-1 border border-white border-solid rounded m-2 lg:mx-5 p-2">Test</div>
-  <div class="lg:flex-1 border border-white border-solid rounded m-2 lg:mx-5 p-2">Test</div>
-  <div class="lg:flex-1 border border-white border-solid rounded m-2 lg:mx-5 p-2">Test</div>
+  <a href="#" class="lg:flex-1 border border-white border-solid rounded m-2 lg:mx-5 p-2 no-underline text-white">
+    <p class="mb-2 block text-white font-bold">Am I a Mortgage Prisoner?</p>
+    <p>Find out what type of mortgage prisoner you are.</p>
+  </a>
+  <a href="#" class="lg:flex-1 border border-white border-solid rounded m-2 lg:mx-5 p-2 no-underline text-white">
+    <p class="mb-2 block text-white font-bold">Mortgage Overpayment Calculator</p>
+    <p>Find out how much to overpay to exit negative equity.</p>
+  </a>
+  <a href="#" class="lg:flex-1 border border-white border-solid rounded m-2 lg:mx-5 p-2 no-underline text-white">
+    <p class="mb-2 block text-white font-bold">20 Solutions for Mortgage Prisoners</p>
+    <p>Find out what type of mortgage prisoner you are.</p>
+  </a>
 </div>
-
 
 <div class="max-w-4xl mx-auto p-2">
   <h2 class="w-full p-2 text-green">Advice for Mortgage Prisoners</h2>
@@ -94,11 +102,42 @@
         <p class="p-2">There are many types of Mortgage Prisoner Categories - some your options may be limited by Mortgage Criteria such as Age or Property Type, others by Negative Equity, others by Credit Historys and others by many other factors.</p>
         <p class="p-2">Complete our Q&A to find out what type of Mortgage Prisoner you are and find bespoke solutions</p>
         <br/>
-        <a href="{{ route('home') }}" class="bg-white hover:bg-grey-lightest py-2 px-4 rounded no-underline border border-green-dark text-green-dark">Start Here</a>
+<a href="{{ route('home') }}" class="mx-auto text-center w-1/3 block bg-green py-2 px-4 rounded no-underline border border-green-dark text-white">Start Here</a>
     </div>
   </div>
 </div>
+<div class="max-w-4xl mx-auto p-2">
+  <h2 class="w-full p-2 text-green">How do you become a mortgage prisoner?</h2>
+  <p class="p-2">A mortgage prisoner is a person who owns a home with a mortgage. They are stuck with the current mortgage unable to remortgage to anouther lender or product switch with the current.</p>
+  <p class="p-2">This is especialy painful to the borrowers budget, stuck on the current lenders Standard Variable Rate (SVR) unable to switch to latest mortgage market rates.</p>
+  <p class="p-2">You become a mortgage prisoner as circumstances changed compared to when you took our the mortgage.</p>
+  <p class="p-2">This could be for many reasons:
+<ul class="flex">
+  <div class="flex-1 p-2">
+  <li><span class="font-semibold text-green">Negative Equity</span><br/>A borrowers loan amount is higher than the value of the home, or greater than 95% of the value of the home.</li>
+  <li><span class="font-semibold text-green">Lowered Income</span><br/>A borrowers income has decreased over the term of the mortgage. Failing affordability on new mortgage applications.</li>
+  <li><span class="font-semibold text-green">Indebtedness</span><br/>A borrower has acumulated debt (credit cards, loans, car lease). Failing affordability on new mortgage applications.</li>
+  <li><span class="font-semibold text-green">High Expendature</span><br/>A borrowers monthly expendature has increased. MCOB 11.6 regulation requires responsible lending. Commited Expendatures like additional children or child support or alimony. Even School Fees though discrtionery effect affordability.</li>
+  <li><span class="font-semibold text-green">Interest Only to Repayment</span><br/>A borrower initialy took out a Interest Only Mortgage, the avaliability of which has been significantly reduced. Affordability on Repayment Mortgage may not be affordable.</li>
+  <li><span class="font-semibold text-green">Mortgage Criteria</span><br/>Mortgage Lenders Criteria may limit borrowing options. As exampl, since purchase a borrower may find there home next to a retail store. Few lenders allow these types of properties.</li>
+    <li><span class="font-semibold text-green">Age</span><br/>A borrower may have reached the maximum age many mortgage lenders will concider providing a mortgage.</li>
+</div>
+<div class="flex-1 p-2">
+  <li><span class="font-semibold text-green">Bad Credit</span><br/>A borrower may have defaults, ccj's or bankrupcy resulting in a decline after a credit check.</li>
+  <li><span class="font-semibold text-green">Leasehold Flat Conditions</span><br/>A borrower may have limited term on the lease of the property. The Ground Rent may be too high. Resulting in a decline from many mainstream lenders.</li>
+  <li><span class="font-semibold text-green">Refurbishment Required</span><br/>A borrower may find that a lender views a property as unmortggeable, due to the condition of the property. Perhaps in need of works for Damp, Roofing or modinisation. Lenders often decline if they see a property in an unmortgeable condition.</li>
+  <li><span class="font-semibold text-green">Self Employed</span><br/>Many Mortgage Lenders have a difficulty in assessing affordability of self employed persons. With a "computer says no" mentality. Self-Employed persons find it hard to refinance.</li>
+  <li><span class="font-semibold text-green">Death of a Partner</span><br/>Mortgage Lenders under MCOB 11.6 regulation are often not be sympathetic, of these change of circumstances. Effecting affirdability of a mortgage after the death of an income earning partner.</li>
+<li><span class="font-semibold text-green">Expat Mortgages</span><br/>Working Internationaly can make it difficult to provide income a lender will concider.</li>
+<li><span class="font-semibold text-green">Zero Hour Contracts</span><br/>Due to the potential instability of income from Zero Hour Contracts mortgage lenders take a dim view on this on affordability.</li>
+</div>
+</ul>
+</p>
 
+<p class="text-center">The good news is, <span class="font-semibold text-green">we have solutions</span> to assist many types of mortgage prisoners.</p>
+<a href="{{ route('home') }}" class="mx-auto text-center w-1/3 block bg-green py-2 px-4 rounded no-underline border border-green-dark text-white">Find Out How</a>
+
+</div>
 
 
 
