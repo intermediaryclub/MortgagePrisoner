@@ -42,7 +42,7 @@
   </a>
   <a href="#" class="lg:flex-1 border border-white border-solid rounded m-2 lg:mx-5 p-2 no-underline text-white">
     <p class="mb-2 block text-white font-bold">20 Solutions for Mortgage Prisoners</p>
-    <p>Find out what type of mortgage prisoner you are.</p>
+    <p>20 Ways to break free from mortgage prison.</p>
   </a>
 </div>
 
