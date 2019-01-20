@@ -19,36 +19,40 @@
 
 <body>
 
-  <div class="flex flex-wrap bg-green lg:py-5">
+  <div class="flex flex-wrap bg-indigo lg:py-5">
     <div class="w-full lg:flex-1">
       <a href="{{ route('home') }}" class="p-2 text-white no-underline" title="Mortgage Prisoner">Mortgage Prisoner</a>
       <span class="hidden lg:inline-block">
-        <a href="{{ route('home') }}" class="p-2 text-green-lighter no-underline text-sm" title="Link1">Link1</a>
+        <a href="{{ route('whatami') }}" class="p-2 text-indigo-lighter no-underline text-sm" title="Am I a Mortgage Prisoner?">Types</a>
+        <a href="{{ route('solutions') }}" class="p-2 text-indigo-lighter no-underline text-sm" title="20 Solutions for Mortgage Prisoners">Solutions</a>
+        <a href="{{ route('calculator.overpayment') }}" class="p-2 text-indigo-lighter no-underline text-sm" title="Mortgage Overpayment Calculator">Calculator</a>
+
       </span>
     </div>
     <div class="w-full lg:flex-1 text-right hidden lg:block">
       <!--
       <a href="tel:01133203240" class="p-2 text-white no-underline" title="Call Us">01133 203 240</a>
     -->
-      <a href="{{ route('home') }}" class="bg-white hover:bg-grey-lightest py-2 px-4 mx-4 rounded no-underline border border-green-dark text-green-dark">Free Enquiry</a>
+      <a href="{{ route('enquiry') }}" class="bg-white hover:bg-grey-lightest py-2 px-4 mx-4 rounded no-underline border border-indigo-dark text-indigo-dark">Free Enquiry</a>
     </div>
   </div>
 
-  <div class="bg-green text-white text-center lg:py-8">
+  <div class="bg-indigo text-white text-center lg:py-8">
     <h1>{{ SEO::getTitle("false") }}</h1>
   </div>
 
-
-
-
+  @if (Session::has('callback'))
+  <div class="bg-green-dark text-white text-center py-20">
+    <h1 class="text-3xl font-semibold">Thank You,</h1>
+    <p>Your callback request has been received. An adviser will call you shortly.</p>
+  </div>
+  @endif
 
 
 @yield('content')
 
 
-
-
-<div class="bg-green text-white pt-5 mt-5">
+<div class="bg-indigo text-white pt-5 mt-5">
   <div class="flex flex-wrap">
     <div class="w-full lg:flex-1 p-3">
       <ul class="list-reset">
