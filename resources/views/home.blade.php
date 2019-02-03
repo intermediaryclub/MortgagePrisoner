@@ -18,7 +18,7 @@
 
     <p class="p-2">Our aim is to provide solutions and introduce Mortgage Prisoners to authorised and qualified mortgage advisers who can help consumers in a prison break.</p>
 
-    <p class="p-2">We provide indipendent guidance and privately funded by mortgage advisers who want to help.</p>
+    <p class="p-2">We provide independent guidance and privately funded by mortgage advisers who want to help.</p>
     <br/>
     <div class="p-2">
 <a href="{{ route('whatami') }}" class="mx-auto text-center w-1/3 block bg-indigo py-2 px-4 rounded no-underline border border-indigo-dark text-white">Start Here</a>
